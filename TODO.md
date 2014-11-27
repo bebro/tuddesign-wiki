@@ -1,0 +1,5 @@
+- [ ] Installationsanleitungen
+    - [X] Linux Global
+    - [X] Linux Lokal
+    - [ ] Mac OS
+    - [ ] Windows
