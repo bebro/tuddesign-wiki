@@ -51,7 +51,7 @@ Mit dem oben genannten Haken bei "yes" kann man dem ganzen aus dem Weg gehen. Al
 In einen beliebigen Ordner die Zip-Dateien mit den Schriftarten (**tudfonts-tex_current.zip**) und dem TUD-Design (**latex-tuddesign_current.zip**) und evt. fachbereichs-spezifische Vorgaben für Abschlussarbeiten (**latex-tuddesign-thesis_current.zip**) herunterladen und entpacken. Aus den zwei (bzw. drei) Ordnern einen machen (Unterordner mit gleichem Namen zusammenfassen).  
 _Vorsicht! Ordner mit Leerzeichen im Namen unbedingt vermeiden! Leerzeichen müssen gesondert behandelt werden (Überbleibsel der 80er Jahre) und sind generell eine schlechte Idee._  
 
-0. Eine Konsole mit Administrator-Rechten öffnen (z. B. mit der Eingabe von runas /user:Administrator cmd unter Ausführen im Startmenü) und in das Verzeichnis wechseln, in dem das eben entpackte texmf-Verzeichnis liegt (mit cd <DIR>).
+0. Eine Konsole mit Administrator-Rechten öffnen (z. B. mit der Eingabe von runas /user:Administrator cmd unter Ausführen im Startmenü) und in das Verzeichnis wechseln, in dem das eben entpackte texmf-Verzeichnis liegt (mit `cd <DIR>`).
 0. Den Ordner **texmf\fonts\map\dvipdfm** inklusive seines Inhalts löschen.
 `rmdir /Q /S "texmf\fonts\map\dvipdfm`
 0. Kopieren der Unterverzeichnisse von texmf in den Ordner %PROGRAMFILES%\tuddesign\.
@@ -113,9 +113,7 @@ Ist dies nicht der Fall oder stehen dort zwar die TU Schriftarten, aber mit wese
 
 In einen beliebigen Ordner die Zip-Dateien mit den Schriftarten (**tudfonts-tex_current.zip**) und dem TUD-Design (**latex-tuddesign_current.zip**) und evt. fachbereichs-spezifische Vorgaben für Abschlussarbeiten (**latex-tuddesign-thesis_current.zip**) herunter laden und entpacken.
 
-0. Eine Konsole mit Administrator-Rechten öffnen (z. B. mit der Eingabe von runas /user:Administrator cmd unter Ausführen im Startmenü) und in das Verzeichnis wechseln, in dem das eben entpackte texmf-Verzeichnis liegt (mit cd <DIR>).
-0. In das Verzeichnis wechsel, in dem das eben entpackte texmf-Verzeichnis liegt 
-`cd <DIR>`
+0. Eine Konsole mit Administrator-Rechten öffnen (z. B. mit der Eingabe von runas /user:Administrator cmd unter Ausführen im Startmenü) und in das Verzeichnis wechseln, in dem das eben entpackte texmf-Verzeichnis liegt (mit `cd <DIR>`).
 0. Den Ordner _texmf\fonts\map\dvipdfm_ inklusive seines Inhalts löschen.  
 `rmdir /Q /S "texmf\fonts\map\dvipdfm"`
 0. Kopieren der Unterverzeichnisse von texmf in den Ordner **%PROGRAMFILES%\tuddesign\.**  
