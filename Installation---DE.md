@@ -33,7 +33,7 @@ Nach klonen des Git-Repository verlinkt man die Inhalte des texmf-Ordners in den
 Nach dem Neu-Einlesen des TeX-tree, sind die Klassen verfügbar.
 Mittels `$make doc` lässt sich dann noch die Dokumentation bauen.
 
-## Windows 7
+## Windows
 
 ###MikTeX 2.9
 
