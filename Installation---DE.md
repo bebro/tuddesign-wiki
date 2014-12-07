@@ -122,4 +122,34 @@ In einen beliebigen Ordner die Zip-Dateien mit den Schriftarten (**tudfonts-tex_
 `initexmf --admin --update-fndb`
 ausführen.
 
+###TeXlive2008
+
+####Allgemeine Hinweise
+
+Die vorliegende Anleitung wurde mit TeXlive 2008 unter Windows XP sowie Vista getestet. Über andere Kombinationen kann ich keine Aussage treffen.
+
+Für Hinweise, Korrekturen, Ergänzungen usw. stehe ich gerne zur Verfügung.
+
+####Installation
+
+In einen beliebigen Ordner die Zip-Dateien mit den Schriftarten (**tudfonts-tex_current.zip**) und dem TUD-Design (**latex-tuddesign_current.zip**) herunter laden und entpacken.
+Kopieren der Unterverzeichnisse von texmf in den lokalen Texlive-Ordner.
+(i. d. R. **C:\Programme\texlive-2008\texmf-local**)
+Das Verzeichnis updmap.d wird nicht benötigt.
+
+0. Eine Konsole öffnen (z. B. mit der Eingabe von cmd unter Ausführen im Startmenü)
+0. Auf der Konsole den Befehl `texhash` ausführen
+0. Dannach die Befehle  
+`updmap-sys --enable Map=5ch.map`  
+`updmap-sys --enable Map=5fp.map`  
+`updmap-sys --enable Map=5sf.map`
+0. Ein `updmap-sys --listmaps` sollte (am Ende der riesigen Liste) unter anderem die Zeilen
+
+  >Map 5ch.map  
+  >Map 5fp.map  
+  >Map 5sf.map  
+
+  zurückliefern.
+
+Danach sollte alles funktionieren. Denke ich. Ich verwende zur Zeit TeXlive unter Eclipse Galileo mit dem TeXclipse Plugin.
 
